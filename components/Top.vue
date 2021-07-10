@@ -30,15 +30,49 @@
                 </ul>
             </nav>
         </main>
+        <div class="l-gallery slider">
+            <img src="../assets/img/top/illust_01.png" alt="">
+            <img src="../assets/img/top/illust_02.png" alt="">
+            <img src="../assets/img/top/illust_03.png" alt="">
+            <img src="../assets/img/top/illust_04.png" alt="">
+            <img src="../assets/img/top/illust_05.png" alt="">
+            <img src="../assets/img/top/illust_06.png" alt="">
+            <img src="../assets/img/top/illust_07.png" alt="">
+            <img src="../assets/img/top/illust_08.png" alt="">
+            <img src="../assets/img/top/illust_09.png" alt="">
+            <img src="../assets/img/top/illust_10.png" alt="">
+            <img src="../assets/img/top/illust_11.png" alt="">
+            <img src="../assets/img/top/illust_12.png" alt="">
+            <img src="../assets/img/top/illust_13.png" alt="">
+            <img src="../assets/img/top/illust_14.png" alt="">
+            <img src="../assets/img/top/illust_15.png" alt="">
+            <img src="../assets/img/top/illust_16.png" alt="">
+        </div>
     </div>
 </template>
+
+<script>
+export default{
+  methods: {
+    // execHideElement(selector) {
+    //   // jQuery はDOM操作のライブラリのため browser のみで動作させる
+    //   if (process.browser) {
+    //     // main.js を読み込む
+    //     const main = require('../assets/js/main')
+    //     // main.js の hideElement(selector) を発火する
+    //     main.hideElement(selector)
+    //   }
+    // }
+  }
+}
+</script>
 
 <style lang="scss">
     .l-main{
         font-family: 'Assistant', sans-serif;
         background-image: url(../assets/img/common/image_top.svg);
-        background-size: 700px 550px;
-        min-height: 550px;
+        background-size: 700px 520px;
+        min-height: 520px;
         background-repeat: no-repeat;
         background-position: 65%;
         position: relative;
@@ -64,6 +98,20 @@
                     }
                 }
             }
+        }
+    }
+
+    .l-gallery{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        img{
+            opacity: 0.8;
+            height: 130px;
+            width: 12.5%;
+            object-fit: cover;
         }
     }
 </style>
