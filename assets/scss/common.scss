@@ -1,3 +1,8 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
 a{
     list-style: none;
     text-decoration: none;
@@ -8,5 +13,14 @@ ul, li{
 }
 
 a:link, a:visited, a:hover, a:active {
-  color: #000;
+    color: #000;
+}
+
+h1{
+    font-family: 'Assistant', sans-serif;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 100;
+    margin-top: 52px;
+    margin-bottom: 0;
 }
