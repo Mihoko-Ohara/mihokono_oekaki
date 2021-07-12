@@ -54,7 +54,7 @@ export default {
         })
       ],
       extend(config) {
-        config.performance.maxAssetSize = 350000;
+        config.performance.maxAssetSize = 700000;
       }
   }
 }

@@ -2,7 +2,7 @@
     <div>
         <Header />
             <h1>Gallery</h1>
-            <p>イラストをクリックすると、SNSアイコン用のフリー画像をご利用いただけます。</p>
+            <p class="l-gallery_desc">イラストをクリックすると、SNSアイコン用のフリー画像をご利用いただけます。</p>
 
         <!-- フォルダにアップした画像をillust_03,02,01....番号逆順に表示させたい -->
         <!-- <div class="l-galley" v-for="illust in illusts" :key="illust">
@@ -65,7 +65,7 @@ export default{
 </script>
 
 <style lang="scss">
-    p{
+    .l-gallery_desc{
         font-family: 'Noto Sans JP', sans-serif;
         text-align: center;
         font-size: 18px;
