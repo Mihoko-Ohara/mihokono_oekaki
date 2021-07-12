@@ -52,6 +52,9 @@ export default {
           jQuery: 'jquery',
           $: 'jquery'
         })
-      ]
+      ],
+      extend(config) {
+        config.performance.maxAssetSize = 350000;
+      }
   }
 }
