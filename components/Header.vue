@@ -3,27 +3,27 @@
         <header class="l-header">
             <nav class="l-header-gnav">
                 <ul class="l-header-ul">
-                    <li>
-                        <nuxt-link to="/">Top</nuxt-link>
-                    </li>
-                    <li>
-                        <nuxt-link to="/gallery">Gallery</nuxt-link>
-                    </li>
-                    <li>
-                        <nuxt-link to="/shop">Shop</nuxt-link>
-                    </li>
-                    <li>
-                        <nuxt-link to="/calender">Calender</nuxt-link>
-                    </li>
-                    <li>
-                        <nuxt-link to="/works">Works</nuxt-link>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/mihokono_oekaki" target="_blank" rel="noopener noreferrer">instagram</a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/mihokono_oekaki" target="_blank" rel="noopener noreferrer">Twitter</a>
-                    </li>
+                    <nuxt-link to="/">
+                        <li>Top</li>
+                    </nuxt-link>
+                    <nuxt-link to="/gallery">
+                        <li>Gallery</li>
+                    </nuxt-link>
+                    <nuxt-link to="/shop">
+                        <li>Shop</li>
+                    </nuxt-link>
+                    <nuxt-link to="/calender">
+                        <li>Calender</li>
+                    </nuxt-link>
+                    <nuxt-link to="/works">
+                        <li>Works</li>
+                    </nuxt-link>
+                    <a href="https://www.instagram.com/mihokono_oekaki" target="_blank" rel="noopener noreferrer">
+                        <li>instagram</li>
+                    </a>
+                    <a href="https://twitter.com/mihokono_oekaki" target="_blank" rel="noopener noreferrer">
+                        <li class="li-last">Twitter</li>
+                    </a>
                 </ul>
             </nav>
         </header>
@@ -51,9 +51,10 @@
             line-height: 57px;
             background-color: #eaeaea;
             margin-right: 11px;
-            &:last-child{
-                margin-right: 0;
-            }
+        }
+
+        .li-last{
+            margin-right: 0;
         }
 
         &-ul{
