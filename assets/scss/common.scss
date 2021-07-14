@@ -21,10 +21,19 @@ h1{
     text-align: center;
     font-size: 64px;
     font-weight: 100;
-    margin-top: 52px;
+    margin-top: 150px;
     margin-bottom: 0;
+
+    @media screen and (max-width: 599px) {
+        font-size: 36px;
+        margin-top: 90px;
+    }
 }
 
 p{
     margin: 0;
+}
+
+.l-sp{
+    display: none;
 }

@@ -18,10 +18,10 @@
                     <nuxt-link to="/works">
                         <li>Works</li>
                     </nuxt-link>
-                    <a href="https://www.instagram.com/mihokono_oekaki" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.instagram.com/mihokono_oekaki" target="_blank" rel="noopener noreferrer" class="l-sp">
                         <li>instagram</li>
                     </a>
-                    <a href="https://twitter.com/mihokono_oekaki" target="_blank" rel="noopener noreferrer">
+                    <a href="https://twitter.com/mihokono_oekaki" target="_blank" rel="noopener noreferrer" class="l-sp">
                         <li class="li-last">Twitter</li>
                     </a>
                 </ul>
@@ -31,10 +31,6 @@
 </template>
 
 <style lang="scss">
-    body{
-        padding-top: 87px;
-    }
-
     .l-header{
         position: fixed;
         width: 100%;
@@ -44,6 +40,10 @@
         font-size: 18px;
         margin-top: 30px;
 
+        @media screen and (max-width: 599px) {
+            font-size: 12px;
+        }
+
         li{
             width: 150px;
             height: 57px;
@@ -51,6 +51,13 @@
             line-height: 57px;
             background-color: #eaeaea;
             margin-right: 11px;
+
+            @media screen and (max-width: 599px) {
+                width: 65px;
+                height: 25px;
+                line-height: 25px;
+                margin-right: 2px;
+            }
         }
 
         .li-last{

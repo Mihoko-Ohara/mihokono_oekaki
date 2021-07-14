@@ -77,11 +77,23 @@ export default{
         background-position: 65%;
         position: relative;
 
+        @media screen and (max-width: 599px) {
+            background-size: 600px 540px;
+            background-position: 50%;
+            background-color:rgba(255,255,255,0.7);
+            background-blend-mode:lighten;
+        }
+
         &-gnav{
             margin-left: 30%;
             margin-top: 200px;
             position: absolute;
             z-index: 10;
+
+            @media screen and (max-width: 599px) {
+                margin-left: 0;
+                margin-top: 215px;
+            }
 
             li{
                 font-size: 36px;
@@ -112,6 +124,11 @@ export default{
             height: 130px;
             width: 12.5%;
             object-fit: cover;
+
+            @media screen and (max-width: 599px) {
+                height: 70px;
+                width: 25%;
+            }
         }
     }
 </style>
