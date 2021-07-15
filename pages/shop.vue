@@ -54,6 +54,7 @@
     @media screen and (max-width: 599px) {
         margin-top: 40px;
         padding-bottom: 60px;
+        font-size: 12px;
     }
 }
 </style>

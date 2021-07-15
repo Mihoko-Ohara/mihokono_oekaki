@@ -19,7 +19,7 @@
                 </div>
                 <div class="l-works_acd">
                     <input id="acd-check2" class="l-works_acd_check" type="checkbox">
-                    <label class="l-works_acd_label" for="acd-check2">その他のご利用、商用利用のご依頼について</label>
+                    <label class="l-works_acd_label" for="acd-check2">その他のご利用、<br class="l-pc">商用利用のご依頼について</label>
                     <nav class="l-works_acd_content">
                         <ul>
                             <li>
@@ -59,13 +59,16 @@
                     </nav>
                 </div>
                 <h2 class="l-contact">お問い合わせ</h2>
-                <div class="l-use">
-                    <p class="l-use_desc">
-                        お仕事のご依頼、ご相談は<br>
-                        <span><a href="mailto:mihokono.oekaki@gmail.com" target="_blank" rel="noopener noreferrer">mihokono.oekaki@gmail.com</a></span> または <span><a href="https://www.instagram.com/mihokono_oekaki" target="_blank" rel="noopener noreferrer">InstagramのDM</a></span> にご連絡ください。
-                    </p>
+                <div class="l-use-padding">
+                    <div class="l-use">
+                        <p class="l-use_desc">
+                            お仕事のご依頼、ご相談は<br>
+                            <span><a href="mailto:mihokono.oekaki@gmail.com" target="_blank" rel="noopener noreferrer">mihokono.oekaki@gmail.com</a></span> または<br class="l-pc"> <span><a href="https://www.instagram.com/mihokono_oekaki" target="_blank" rel="noopener noreferrer">InstagramのDM</a></span> にご連絡ください。
+                        </p>
+                    </div>
                 </div>
             </div>
+        <Footer />
     </div>
 </template>
 
@@ -74,11 +77,20 @@
         font-family: 'Noto Sans JP', sans-serif;
         margin-top: 53px;
 
+        @media screen and (max-width: 599px) {
+            margin-top: 30px;
+        }
+
         h2{
             margin-bottom: 40px;
             font-size: 20px;
             font-weight: 100;
             text-align: center;
+
+            @media screen and (max-width: 599px) {
+                margin-bottom: 20px;
+                font-size: 12px;
+            }
         }
 
         &_acd{
@@ -86,6 +98,10 @@
             width: 912px;
             margin: 0 auto 15px auto;
             padding: 25px 35px 10px 35px;
+
+            @media screen and (max-width: 599px) {
+                width: 230px;
+            }
 
             &_check{
                 display: none;
@@ -95,6 +111,10 @@
                 display: block;
                 position: relative;
                 font-weight: 100;
+
+                @media screen and (max-width: 599px) {
+                    font-size: 12px;
+                }
 
                 &::after{
                     box-sizing: border-box;
@@ -106,6 +126,10 @@
                     font-size: 25px;
                     font-weight: 100;
                     color: #666;
+
+                    @media screen and (max-width: 599px) {
+                        top: -11.5px;
+                    }
                 }
             }
 
@@ -116,8 +140,18 @@
                 visibility: hidden;
                 font-weight: 100;
 
+                @media screen and (max-width: 599px) {
+                    ul{
+                        padding-inline-start: 30px;
+                    }
+                }
+
                 li{
                     list-style-type: circle;
+
+                    @media screen and (max-width: 599px) {
+                        font-size: 10px;
+                    }
                 }
             }
 
@@ -131,12 +165,20 @@
                 content: '-';
                 top: -25px;
                 font-size: 41px;
+
+                @media screen and (max-width: 599px) {
+                    top: -29px;
+                }
             }
         }
     }
 
     .l-contact{
         margin-top: 70px;
+
+        @media screen and (max-width: 599px) {
+            margin-top: 30px;
+        }
     }
 
     .l-use{
@@ -144,6 +186,10 @@
             span{
                 font-weight: bold;
                 font-size: 16px;
+
+                @media screen and (max-width: 599px) {
+                    font-size: 12px;
+                }
             }
         }
     }
