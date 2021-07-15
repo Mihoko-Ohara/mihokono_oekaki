@@ -142,7 +142,7 @@
 
                 @media screen and (max-width: 599px) {
                     ul{
-                        padding-inline-start: 30px;
+                        padding-left: 20px;
                     }
                 }
 
