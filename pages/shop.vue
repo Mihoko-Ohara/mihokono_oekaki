@@ -22,6 +22,7 @@
             <p class="l-shop_link">
                 <a href="https://suzuri.jp/mihokono_oekaki" target="_blank" rel="noopener noreferrer">> ショップを見る</a>
             </p>
+        <Footer />
     </div>
 </template>
 
@@ -32,6 +33,11 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-top: 53px;
+
+    @media screen and (max-width: 599px) {
+        margin-top: 20px;
+    }
+
     img{
         width: 323px;
         height: 323px;
@@ -44,5 +50,10 @@
     font-weight: 300;
     text-align: center;
     margin-top: 73px;
+
+    @media screen and (max-width: 599px) {
+        margin-top: 40px;
+        padding-bottom: 60px;
+    }
 }
 </style>

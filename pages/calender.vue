@@ -71,12 +71,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="l-calender_page">
+            </div>
+            <div class="l-calender_page">
                     <a href="" class="l-calender_page_back">&lt; back</a>
                     <a href="" class="l-calender_page_next">next ></a>
-                </div>
             </div>
         <IllustUse />
+        <Footer />
     </div>
 </template>
 
@@ -89,19 +90,36 @@
         justify-content: space-evenly;
         margin: 53px 150px 0 150px;
 
+        @media screen and (max-width: 599px) {
+            margin: 20px 150px 0 150px;
+        }
+
         &_box{
             p{
                 font-size: 18px;
                 margin-bottom: 5px;
+
+                @media screen and (max-width: 599px) {
+                    font-size: 12px;
+                }
             }
 
             &_img{
-                display: flex;
-                margin-bottom: 48px;
+                    display: flex;
+                    margin-bottom: 48px;
+
+                    @media screen and (max-width: 599px) {
+                        margin-bottom: 25px;
+                    }
 
                 img{
-                width: 200px;
-                height: 282px;
+                    width: 200px;
+                    height: 282px;
+
+                    @media screen and (max-width: 599px) {
+                        width: 120px;
+                        height: 169px;
+                    }
                 }
 
                 .download_btn{
@@ -114,6 +132,13 @@
                     text-align:center;
                     line-height:30px;
                     border-radius: 3px;
+
+                    @media screen and (max-width: 599px) {
+                        width: 50px;
+                        height: 20px;
+                        font-size: 9px;
+                        line-height: 20px;
+                    }
                 }
 
                 &_left{
@@ -125,7 +150,19 @@
         &_page{
             width: 912px;
             font-size: 24px;
-            margin-bottom: 25px;
+            margin-bottom: 60px;
+            margin-right: auto;
+            margin-left: auto;
+            font-family: 'Assistant', sans-serif;
+
+            @media screen and (max-width: 599px) {
+                width: 313px;
+                font-size: 12px;
+                margin-bottom: 40px;
+                margin-right: auto;
+                margin-left: auto;
+            }
+
             &_back{
                 float: left;
             }

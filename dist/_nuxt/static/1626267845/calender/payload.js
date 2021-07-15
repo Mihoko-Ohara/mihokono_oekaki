@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/calender", {data:[{}],fetch:{},mutations:void 0});

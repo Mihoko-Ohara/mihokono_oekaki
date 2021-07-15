@@ -34,6 +34,14 @@ p{
     margin: 0;
 }
 
+.l-pc{
+    display: none;
+
+    @media screen and (max-width: 599px) {
+        display: block;
+    }
+}
+
 .l-sp{
     display: none;
 }

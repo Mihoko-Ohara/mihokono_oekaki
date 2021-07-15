@@ -1,9 +1,9 @@
 <template>
-    <div>
+    <div class="l-use-padding">
         <div class="l-use">
             <p class="l-use_title">イラストのご利用について</p>
             <p class="l-use_desc">
-                本サイトからお好みのイラストを選択し、画像(PNG形式)をダウンロードしてご利用ください。<br>
+                本サイトからお好みのイラストを選択し、<br class="l-pc">画像(PNG形式)をダウンロードしてご利用ください。<br>
                 ※イラストはSNSアイコンのみ利用可能です。<br>
                 その他の利用や加工、無断転載等はお控えください。<br>
             </p>
@@ -20,13 +20,31 @@
         width: 912px;
         margin: 0 auto 47px auto;
 
+        @media screen and (max-width: 599px) {
+            width: 313px;
+        }
+
         &_title{
             font-size: 18px;
             margin-bottom: 5px;
+
+            @media screen and (max-width: 599px) {
+                font-size: 10px;
+            }
         }
 
         &_desc{
             font-size: 13px;
+
+            @media screen and (max-width: 599px) {
+                font-size: 6px;
+            }
+        }
+
+        @media screen and (max-width: 599px) {
+            &-padding{
+                padding-bottom: 30px;
+            }
         }
     }
 </style>
