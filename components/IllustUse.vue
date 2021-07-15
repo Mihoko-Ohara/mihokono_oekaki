@@ -4,7 +4,7 @@
             <p class="l-use_title">イラストのご利用について</p>
             <p class="l-use_desc">
                 本サイトからお好みのイラストを選択し、<br class="l-pc">画像(PNG形式)をダウンロードしてご利用ください。<br>
-                ※イラストはSNSアイコンのみ利用可能です。<br>
+                ※イラストはSNSアイコン、壁紙のみ利用可能です。<br>
                 その他の利用や加工、無断転載等はお控えください。<br>
             </p>
         </div>
@@ -29,7 +29,7 @@
             margin-bottom: 5px;
 
             @media screen and (max-width: 599px) {
-                font-size: 10px;
+                font-size: 12px;
             }
         }
 
@@ -37,7 +37,7 @@
             font-size: 13px;
 
             @media screen and (max-width: 599px) {
-                font-size: 6px;
+                font-size: 8px;
             }
         }
 
