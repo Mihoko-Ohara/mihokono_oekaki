@@ -8,15 +8,19 @@
                     <div class="l-calender_box_img">
                         <div class="l-calender_box_img_left">
                             <img src="../assets/img/calender/202107.png" alt="">
-                            <div class="download_btn">
-                                Download
-                            </div>
+                            <a href="https://mihoko.netlify.app/_nuxt/img/202107.0f3f200.png" download="mihoko_202107.png" target="_blank" rel="noopener noreferrer">
+                                <div class="download_btn">
+                                        Download
+                                </div>
+                            </a>
                         </div>
                         <div>
                             <img src="../assets/img/calender/202107_illust.png" alt="">
-                            <div class="download_btn">
-                                Download
-                            </div>
+                            <a href="https://mihoko.netlify.app/_nuxt/img/202107_illust.a78a305.png" download="mihoko_202107_illust.png" target="_blank" rel="noopener noreferrer">
+                                <div class="download_btn">
+                                        Download
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -25,15 +29,19 @@
                     <div class="l-calender_box_img">
                         <div class="l-calender_box_img_left">
                             <img src="../assets/img/calender/202106.png" alt="">
-                            <div class="download_btn">
-                                Download
-                            </div>
+                            <a href="https://mihoko.netlify.app/_nuxt/img/202106.5afc45f.png" download="mihoko_202106.png" target="_blank" rel="noopener noreferrer">
+                                <div class="download_btn">
+                                        Download
+                                </div>
+                            </a>
                         </div>
                         <div>
                             <img src="../assets/img/calender/202106_illust.png" alt="">
-                            <div class="download_btn">
-                                Download
-                            </div>
+                            <a href="https://mihoko.netlify.app/_nuxt/img/202106_illust.0996b8e.png" download="mihoko_202106_illust.png" target="_blank" rel="noopener noreferrer">
+                                <div class="download_btn">
+                                        Download
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -42,15 +50,19 @@
                     <div class="l-calender_box_img">
                         <div class="l-calender_box_img_left">
                             <img src="../assets/img/calender/202105.png" alt="">
-                            <div class="download_btn">
-                                Download
-                            </div>
+                            <a href="https://mihoko.netlify.app/_nuxt/img/202105.fb6fe32.png" download="mihoko_202105.png" target="_blank" rel="noopener noreferrer">
+                                <div class="download_btn">
+                                        Download
+                                </div>
+                            </a>
                         </div>
                         <div>
                             <img src="../assets/img/calender/202105_illust.png" alt="">
-                            <div class="download_btn">
-                                Download
-                            </div>
+                            <a href="https://mihoko.netlify.app/_nuxt/img/202105.fb6fe32.png" download="mihoko_202105_illust.png" target="_blank" rel="noopener noreferrer">
+                                <div class="download_btn">
+                                        Download
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -59,15 +71,19 @@
                     <div class="l-calender_box_img">
                         <div class="l-calender_box_img_left">
                             <img src="../assets/img/calender/202104.png" alt="">
-                            <div class="download_btn">
-                                Download
-                            </div>
+                            <a href="https://mihoko.netlify.app/_nuxt/img/202104.d53b724.png" download="mihoko_202104.png" target="_blank" rel="noopener noreferrer">
+                                <div class="download_btn">
+                                        Download
+                                </div>
+                            </a>
                         </div>
                         <div>
                             <img src="../assets/img/calender/202104_illust.png" alt="">
-                            <div class="download_btn">
-                                Download
-                            </div>
+                            <a href="https://mihoko.netlify.app/_nuxt/img/202104_illust.e2d7f56.png" download="mihoko_202104_illust.png" target="_blank" rel="noopener noreferrer">
+                                <div class="download_btn">
+                                        Download
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
