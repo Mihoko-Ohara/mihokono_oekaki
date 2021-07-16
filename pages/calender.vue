@@ -8,7 +8,7 @@
                     <div class="l-calender_box_img">
                         <div class="l-calender_box_img_left">
                             <img src="../assets/img/calender/202107.png" alt="">
-                            <a href="https://mihoko.netlify.app/_nuxt/img/202107.0f3f200.png" download="mihoko_202107.png" target="_blank" rel="noopener noreferrer">
+                            <a href="https://mihoko.netlify.app/_nuxt/img/202107.0f3f200.png?nf_resize=fit&w=1000" download="mihoko_202107.png" target="_blank" rel="noopener noreferrer">
                                 <div class="download_btn">
                                         Download
                                 </div>
