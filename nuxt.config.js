@@ -36,11 +36,6 @@ export default {
   buildModules: [
   ],
 
-  // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [
-      'nuxt-webfontloader'
-  ],
-
     webfontloader: {
     google: {
       families: ['Assistant:200', 'Noto+Sans+JP:100,300']
@@ -58,5 +53,15 @@ export default {
       extend(config) {
         config.performance.maxAssetSize = 700000;
       }
+  },
+
+  // Modules: https://go.nuxtjs.dev/config-modules
+  modules: [
+      'nuxt-webfontloader',
+      '@nuxtjs/axios'
+  ],
+
+  axios: {
+    // proxyHeaders: false
   }
 }
