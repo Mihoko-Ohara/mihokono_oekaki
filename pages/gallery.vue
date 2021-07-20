@@ -51,7 +51,7 @@ export default{
         justify-content: space-evenly;
 
         @media screen and (max-width: 599px) {
-            width: 328px;
+            width: 318px;
             margin: 0 auto;
         }
 
@@ -65,10 +65,8 @@ export default{
                 width: 90px;
                 height: 90px;
                 margin-bottom: 17px;
-                margin-right: 29px;
-                &:nth-child(3n){
-                    margin-right: 0;
-                }
+                margin-right: 8px;
+                margin-left: 8px;
             }
         }
     }
