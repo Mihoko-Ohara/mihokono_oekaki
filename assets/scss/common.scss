@@ -43,5 +43,8 @@ p{
 }
 
 .l-sp{
-    display: none;
+    display: block;
+    @media screen and (max-width: 599px) {
+        display: none;
+    }
 }
