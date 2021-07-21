@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="l-works-header">
         <Header />
             <h1>Works</h1>
             <div class="l-works">
@@ -72,6 +72,15 @@
 </template>
 
 <style lang="scss">
+    .l-works-header{
+        .l-header_works{
+            li{
+                background-color: #666;
+                color: #fff;
+            }
+        }
+    }
+
     .l-works{
         font-family: 'Noto Sans JP', sans-serif;
         margin-top: 53px;

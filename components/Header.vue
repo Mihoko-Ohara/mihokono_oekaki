@@ -6,16 +6,16 @@
                     <nuxt-link to="/">
                         <li>Top</li>
                     </nuxt-link>
-                    <nuxt-link to="/gallery">
+                    <nuxt-link to="/gallery" class="l-header_gallery">
                         <li>Gallery</li>
                     </nuxt-link>
-                    <nuxt-link to="/shop">
+                    <nuxt-link to="/shop" class="l-header_shop">
                         <li>Shop</li>
                     </nuxt-link>
-                    <nuxt-link to="/calender">
+                    <nuxt-link to="/calender" class="l-header_calender">
                         <li>Calender</li>
                     </nuxt-link>
-                    <nuxt-link to="/works">
+                    <nuxt-link to="/works" class="l-header_works">
                         <li>Works</li>
                     </nuxt-link>
                     <a href="https://www.instagram.com/mihokono_oekaki" target="_blank" rel="noopener noreferrer" class="l-sp">

@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="l-shop-header">
         <Header />
             <h1>Shop</h1>
             <div class="l-shop">
@@ -27,34 +27,43 @@
 </template>
 
 <style lang="scss">
-.l-shop{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-top: 53px;
-
-    @media screen and (max-width: 599px) {
-        margin-top: 20px;
+    .l-shop-header{
+        .l-header_shop{
+            li{
+                background-color: #666;
+                color: #fff;
+            }
+        }
     }
 
-    img{
-        width: 323px;
-        height: 323px;
-    }
-}
+    .l-shop{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: 53px;
 
-.l-shop_link{
-    font-family: 'Noto Sans JP', sans-serif;
-    font-size: 20px;
-    font-weight: 300;
-    text-align: center;
-    margin-top: 73px;
+        @media screen and (max-width: 599px) {
+            margin-top: 20px;
+        }
 
-    @media screen and (max-width: 599px) {
-        margin-top: 40px;
-        padding-bottom: 60px;
-        font-size: 12px;
+        img{
+            width: 323px;
+            height: 323px;
+        }
     }
-}
+
+    .l-shop_link{
+        font-family: 'Noto Sans JP', sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+        text-align: center;
+        margin-top: 73px;
+
+        @media screen and (max-width: 599px) {
+            margin-top: 40px;
+            padding-bottom: 60px;
+            font-size: 12px;
+        }
+    }
 </style>

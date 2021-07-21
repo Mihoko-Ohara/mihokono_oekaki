@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="l-gallery-header">
         <Header />
         <h1>Free icon</h1>
         <div class="l-icon_page">

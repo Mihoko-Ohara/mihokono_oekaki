@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="l-calender-header">
         <Header />
             <h1>Calender</h1>
             <div class="l-calender">
@@ -51,7 +51,17 @@ export default{
 }
 </script>
 
+
 <style lang="scss">
+    .l-calender-header{
+        .l-header_calender{
+            li{
+                background-color: #666;
+                color: #fff;
+            }
+        }
+    }
+
     .l-calender{
         font-family: 'Assistant', sans-serif;
         display: flex;

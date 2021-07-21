@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="l-gallery-header">
         <Header />
             <h1>Gallery</h1>
             <p class="l-gallery_desc">イラストをクリックすると、SNSアイコン用のフリー画像をご利用いただけます。</p>
@@ -30,6 +30,15 @@ export default{
 </script>
 
 <style lang="scss">
+    .l-gallery-header{
+        .l-header_gallery{
+            li{
+                background-color: #666;
+                color: #fff;
+            }
+        }
+    }
+
     .l-gallery_desc{
         font-family: 'Noto Sans JP', sans-serif;
         text-align: center;
