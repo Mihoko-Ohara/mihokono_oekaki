@@ -51,6 +51,7 @@
             line-height: 57px;
             background-color: #eaeaea;
             margin-right: 11px;
+            color: #000;
 
             @media screen and (max-width: 599px) {
                 width: 65px;

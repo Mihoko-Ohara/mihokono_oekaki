@@ -1,9 +1,10 @@
 <template>
+  <v-app>
     <div class="l-calender-header">
         <Header />
             <h1>Calender</h1>
             <div class="l-calender">
-                <div class="l-calender_box" v-for="calender in reverseCalenders" :key="calender.id">
+                <div class="l-calender_box" v-for="calender in displayLists" :key="calender.id">
                     <p>{{ calender.title }}</p>
                     <div class="l-calender_box_img" v-for="img in calender.calender_detail" :key="img.calender">
                         <div class="l-calender_box_img_left">
@@ -26,31 +27,47 @@
                 </div>
             </div>
             <div class="l-calender_page">
-                    <a href="" class="l-calender_page_back">&lt; back</a>
-                    <a href="" class="l-calender_page_next">next ></a>
+                <v-pagination
+                v-model="page"
+                :length="length"
+                @input = "pageChange"
+                ></v-pagination>
             </div>
-
         <IllustUse />
         <Footer />
     </div>
+  </v-app>
 </template>
 
 <script>
 import { mapGetters } from 'vuex'
-
-export default{
+export default {
+    name: 'App',
+    data () {
+        return {
+            page: 1,
+            length:0,
+            displayLists: [],
+            pageSize: 2,
+        }
+    },
+    methods: {
+        pageChange: function(pageNumber){
+            this.displayLists = this.calenders.slice().reverse().slice(this.pageSize*(pageNumber -1), this.pageSize*(pageNumber));
+        },
+    },
     computed: {
         ...mapGetters({
             calenders: 'json/getAll2',
         }),
-
-        reverseCalenders() {
-        return this.calenders.slice().reverse();
     },
-  }
+    mounted: function(){
+        this.length = Math.ceil(this.calenders.length/this.pageSize);
+
+        this.displayLists = this.calenders.slice().reverse().slice(0,this.pageSize);
+    }
 }
 </script>
-
 
 <style lang="scss">
     .l-calender-header{
@@ -128,27 +145,55 @@ export default{
         }
 
         &_page{
-            width: 912px;
-            font-size: 24px;
-            margin-bottom: 60px;
-            margin-right: auto;
-            margin-left: auto;
-            font-family: 'Assistant', sans-serif;
-
-            @media screen and (max-width: 599px) {
-                width: 313px;
-                font-size: 12px;
-                margin-bottom: 40px;
-                margin-right: auto;
-                margin-left: auto;
-            }
-
-            &_back{
-                float: left;
-            }
-            &_next{
-                float: right;
-            }
+            margin-bottom: 30px;
         }
+    }
+
+    // vuetify
+    .v-application{
+        font-family: 'Assistant', sans-serif!important;
+    }
+
+    .v-pagination__navigation{
+        box-shadow: 0px 0px!important;
+    }
+
+    .v-pagination__item{
+        box-shadow: 0px 0px!important;
+        border-radius: 50%!important;
+        @media screen and (max-width: 599px) {
+            font-size: 12px!important;
+            height: 30px;
+            min-width: 30px;
+        }
+    }
+
+    .mdi-chevron-left::before{
+        font-family: 'Assistant', sans-serif!important;
+        content: "<"!important;
+    }
+
+    .mdi-chevron-right::before{
+        font-family: 'Assistant', sans-serif!important;
+        content: ">"!important;
+    }
+
+    .v-pagination__navigation--disabled{
+        opacity: 0!important;
+    }
+
+    .v-application .l-calender_page .v-pagination .primary{
+        background-color: #666!important;
+        border-color: #666!important;
+    }
+
+    @media screen and (max-width: 599px) {
+        .v-icon.v-icon{
+            font-size: 20px!important;
+        }
+    }
+
+    .v-application ol, .v-application ul{
+        padding-left: 0px!important;
     }
 </style>
