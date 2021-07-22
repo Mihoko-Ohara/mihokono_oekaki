@@ -196,4 +196,12 @@ export default {
     .v-application ol, .v-application ul{
         padding-left: 0px!important;
     }
+
+    .v-application p{
+        padding-bottom: 0px!important;
+    }
+
+    .theme--light.v-pagination .v-pagination__item{
+        border: 0px none!important;
+    }
 </style>

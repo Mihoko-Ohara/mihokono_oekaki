@@ -91,7 +91,7 @@ export default{
             z-index: 10;
 
             @media screen and (max-width: 599px) {
-                margin-left: 0;
+                margin-left: 15%;
                 margin-top: 215px;
             }
 

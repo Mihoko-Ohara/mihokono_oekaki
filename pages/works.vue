@@ -105,10 +105,11 @@
             background-color: #ccc;
             width: 912px;
             margin: 0 auto 15px auto;
-            padding: 25px 35px 10px 35px;
+            padding: 20px 35px;
 
             @media screen and (max-width: 599px) {
                 width: 230px;
+                padding: 15px 20px;
             }
 
             &_check{
@@ -136,7 +137,8 @@
                     color: #666;
 
                     @media screen and (max-width: 599px) {
-                        top: -11.5px;
+                        top: -6.5px;
+                        font-size: 20px;
                     }
                 }
             }
@@ -147,6 +149,10 @@
                 transition: .5s;
                 visibility: hidden;
                 font-weight: 100;
+                ul{
+                    padding-top: 10px;
+                    padding-left: 20px;
+                }
 
                 @media screen and (max-width: 599px) {
                     ul{
