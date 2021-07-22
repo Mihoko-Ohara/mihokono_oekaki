@@ -108,7 +108,7 @@
             padding: 20px 35px;
 
             @media screen and (max-width: 599px) {
-                width: 230px;
+                width: 280px;
                 padding: 15px 20px;
             }
 
