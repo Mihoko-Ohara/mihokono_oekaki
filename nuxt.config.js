@@ -19,7 +19,7 @@ export default {
       { hid: 'og:type', property: 'og:type', content: 'website' },
       { hid: 'og:url', property: 'og:url', content: 'https://mihoko.netlify.app' },
       { hid: 'og:title', property: 'og:title', content: 'mihoko illustration' },
-      { hid: 'og:description', property: 'og:description', content: '' },
+      { hid: 'og:description', property: 'og:description', content: 'Official website of illustrator mihoko' },
       { hid: 'og:image', property: 'og:image', content: 'https://mihoko.netlify.app/img/common/mihoko_ogp.png' },
       { name: 'twitter:card', content: 'summary' }
     ],
