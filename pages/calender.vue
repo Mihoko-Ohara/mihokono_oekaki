@@ -4,7 +4,7 @@
         <Header />
             <h1>Calender</h1>
             <div class="l-calender">
-                <div class="l-calender_box" v-for="calender in displayLists" :key="calender.id">
+                <div class="l-calender_box slide-bottom show" v-for="calender in displayLists" :key="calender.id">
                     <p>{{ calender.title }}</p>
                     <div class="l-calender_box_img" v-for="img in calender.calender_detail" :key="img.calender">
                         <div class="l-calender_box_img_left">
@@ -65,6 +65,21 @@ export default {
         this.length = Math.ceil(this.calenders.length/this.pageSize);
 
         this.displayLists = this.calenders.slice().reverse().slice(0,this.pageSize);
+
+        // slide fadeIn
+        $(function(){
+            $(window).on('load scroll', function() {
+                var winScroll = $(window).scrollTop();
+                var winHeight = $(window).height();
+                var scrollPos = winScroll + (winHeight * 0.8);
+
+                $(".show").each(function() {
+                    if($(this).offset().top < scrollPos) {
+                        $(this).css({opacity: 1, transform: 'translate(0, 0)'});
+                    }
+                });
+            });
+        });
     }
 }
 </script>

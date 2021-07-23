@@ -39,6 +39,7 @@
         font-family: 'Assistant', sans-serif;
         font-size: 18px;
         margin-top: 30px;
+        z-index: 10;
 
         @media screen and (max-width: 599px) {
             font-size: 12px;

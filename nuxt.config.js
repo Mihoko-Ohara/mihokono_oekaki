@@ -17,6 +17,9 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+    ],
+    script: [
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js' }
     ]
   },
 
@@ -45,12 +48,6 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-      plugins: [
-        new webpack.ProvidePlugin({
-          jQuery: 'jquery',
-          $: 'jquery'
-        })
-      ],
       extend(config) {
         config.performance.maxAssetSize = 700000;
       }

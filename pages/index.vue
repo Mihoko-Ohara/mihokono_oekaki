@@ -1,7 +1,7 @@
 <template>
     <div>
-        <main class="l-main">
-            <nav class="l-main-gnav">
+        <main class="l-main fade fade1">
+            <nav class="l-main-gnav fade fade2">
                 <ul>
                     <li>
                         <nuxt-link to="/gallery">Gallery</nuxt-link>
@@ -30,42 +30,28 @@
                 </ul>
             </nav>
         </main>
-        <div class="l-gallery slider">
-            <img src="../assets/img/top/illust_01.png" alt="">
-            <img src="../assets/img/top/illust_02.png" alt="">
-            <img src="../assets/img/top/illust_03.png" alt="">
-            <img src="../assets/img/top/illust_04.png" alt="">
-            <img src="../assets/img/top/illust_05.png" alt="">
-            <img src="../assets/img/top/illust_06.png" alt="">
-            <img src="../assets/img/top/illust_07.png" alt="">
-            <img src="../assets/img/top/illust_08.png" alt="">
-            <img src="../assets/img/top/illust_09.png" alt="">
-            <img src="../assets/img/top/illust_10.png" alt="">
-            <img src="../assets/img/top/illust_11.png" alt="">
-            <img src="../assets/img/top/illust_12.png" alt="">
-            <img src="../assets/img/top/illust_13.png" alt="">
-            <img src="../assets/img/top/illust_14.png" alt="">
-            <img src="../assets/img/top/illust_15.png" alt="">
-            <img src="../assets/img/top/illust_16.png" alt="">
-        </div>
+        <nuxt-link to="/gallery">
+            <div class="l-gallery">
+                <img src="../assets/img/top/illust_01.png" class="fade_img fade3">
+                <img src="../assets/img/top/illust_02.png" class="fade_img fade4">
+                <img src="../assets/img/top/illust_03.png" class="fade_img fade5">
+                <img src="../assets/img/top/illust_04.png" class="fade_img fade6">
+                <img src="../assets/img/top/illust_05.png" class="fade_img fade7">
+                <img src="../assets/img/top/illust_06.png" class="fade_img fade8">
+                <img src="../assets/img/top/illust_07.png" class="fade_img fade9">
+                <img src="../assets/img/top/illust_08.png" class="fade_img fade10">
+                <img src="../assets/img/top/illust_09.png" class="fade_img fade11">
+                <img src="../assets/img/top/illust_10.png" class="fade_img fade12">
+                <img src="../assets/img/top/illust_11.png" class="fade_img fade13">
+                <img src="../assets/img/top/illust_12.png" class="fade_img fade14">
+                <img src="../assets/img/top/illust_13.png" class="fade_img fade15">
+                <img src="../assets/img/top/illust_14.png" class="fade_img fade16">
+                <img src="../assets/img/top/illust_15.png" class="fade_img fade17">
+                <img src="../assets/img/top/illust_16.png" class="fade_img fade18">
+            </div>
+        </nuxt-link>
     </div>
 </template>
-
-<script>
-export default{
-  methods: {
-    // execHideElement(selector) {
-    //   // jQuery はDOM操作のライブラリのため browser のみで動作させる
-    //   if (process.browser) {
-    //     // main.js を読み込む
-    //     const main = require('../assets/js/main')
-    //     // main.js の hideElement(selector) を発火する
-    //     main.hideElement(selector)
-    //   }
-    // }
-  }
-}
-</script>
 
 <style lang="scss">
     .l-main{
@@ -120,7 +106,6 @@ export default{
         justify-content: space-between;
 
         img{
-            opacity: 0.8;
             height: 130px;
             width: 12.5%;
             object-fit: cover;
@@ -130,5 +115,77 @@ export default{
                 width: 25%;
             }
         }
+    }
+
+    // fadeIn
+    .fade{
+        opacity: 0;
+        animation: 1s fadeIn forwards;
+    }
+    @keyframes fadeIn {
+        0% {opacity: 0}
+        100% {opacity: 1}
+    }
+    .fade_img{
+        opacity: 0;
+        animation: 1s fadeInImg forwards;
+    }
+    @keyframes fadeInImg {
+        0% {opacity: 0}
+        100% {opacity: 0.8}
+    }
+    .fade1{
+        animation-delay: 0.5s;
+    }
+    .fade2{
+        animation-delay: 1.5s;
+    }
+    .fade3{
+        animation-delay: 2.5s;
+    }
+    .fade4{
+        animation-delay: 2.7s;
+    }
+    .fade5{
+        animation-delay: 2.9s;
+    }
+    .fade6{
+        animation-delay: 3.1s;
+    }
+    .fade7{
+        animation-delay: 3.3s;
+    }
+    .fade8{
+        animation-delay: 3.5s;
+    }
+    .fade9{
+        animation-delay: 3.7s;
+    }
+    .fade10{
+        animation-delay: 3.9s;
+    }
+    .fade11{
+        animation-delay: 4.1s;
+    }
+    .fade12{
+        animation-delay: 4.3s;
+    }
+    .fade13{
+        animation-delay: 4.5s;
+    }
+    .fade14{
+        animation-delay: 4.7s;
+    }
+    .fade15{
+        animation-delay: 4.9s;
+    }
+    .fade16{
+        animation-delay: 5.1s;
+    }
+    .fade17{
+        animation-delay: 5.3s;
+    }
+    .fade18{
+        animation-delay: 5.5s;
     }
 </style>

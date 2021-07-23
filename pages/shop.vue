@@ -3,17 +3,17 @@
         <Header />
             <h1>Shop</h1>
             <div class="l-shop">
-                <div class="suzuri-widget-product" data-suzuri-product-id="16600680" data-suzuri-item-variant-id="1480">
+                <div class="suzuri-widget-product slide-bottom show" data-suzuri-product-id="16600680" data-suzuri-item-variant-id="1480">
                     <a href="https://suzuri.jp/mihokono_oekaki/6733680/reusable-bag/m/white" target="_blank" rel="noopener noreferrer">
                         <img src="../assets/img/shop/shop01.png">
                     </a>
                 </div>
-                <div class="suzuri-widget-product" data-suzuri-product-id="16600701" data-suzuri-item-variant-id="81">
+                <div class="suzuri-widget-product slide-bottom show" data-suzuri-product-id="16600701" data-suzuri-item-variant-id="81">
                     <a href="https://suzuri.jp/mihokono_oekaki/6733680/tote-bag/m/natural" target="_blank" rel="noopener noreferrer">
                         <img src="../assets/img/shop/shop02.png">
                     </a>
                 </div>
-                <div class="suzuri-widget-product" data-suzuri-product-id="16600548" data-suzuri-item-variant-id="1">
+                <div class="suzuri-widget-product slide-bottom show" data-suzuri-product-id="16600548" data-suzuri-item-variant-id="1">
                     <a href="https://suzuri.jp/mihokono_oekaki/6733642/t-shirt/s/white" target="_blank" rel="noopener noreferrer">
                         <img src="../assets/img/shop/shop03.png">
                     </a>
@@ -25,6 +25,26 @@
         <Footer />
     </div>
 </template>
+
+<script>
+export default{
+    mounted: function(){
+        $(function(){
+            $(window).on('load scroll', function() {
+                var winScroll = $(window).scrollTop();
+                var winHeight = $(window).height();
+                var scrollPos = winScroll + (winHeight * 0.8);
+
+                $(".show").each(function() {
+                    if($(this).offset().top < scrollPos) {
+                        $(this).css({opacity: 1, transform: 'translate(0, 0)'});
+                    }
+                });
+            });
+        });
+    },
+}
+</script>
 
 <style lang="scss">
     .l-shop-header{

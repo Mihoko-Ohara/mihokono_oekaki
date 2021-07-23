@@ -5,7 +5,7 @@
             <p class="l-gallery_desc">イラストをクリックすると、SNSアイコン用のフリー画像をご利用いただけます。</p>
         <div class="l-galley">
             <nuxt-link  v-for="item in reverseItems" :key="item.id" :to="`/icon/${item.id}`">
-                <img :src="item.img_top">
+                <img :src="item.img_top" class="slide-bottom show">
             </nuxt-link>
         </div>
         <Footer />
@@ -24,8 +24,23 @@ export default{
 
         reverseItems() {
         return this.items.slice().reverse();
+        },
     },
-  }
+    mounted: function(){
+        $(function(){
+            $(window).on('load scroll', function() {
+                var winScroll = $(window).scrollTop();
+                var winHeight = $(window).height();
+                var scrollPos = winScroll + (winHeight * 0.8);
+
+                $(".show").each(function() {
+                    if($(this).offset().top < scrollPos) {
+                        $(this).css({opacity: 1, transform: 'translate(0, 0)'});
+                    }
+                });
+            });
+        });
+    },
 }
 </script>
 
