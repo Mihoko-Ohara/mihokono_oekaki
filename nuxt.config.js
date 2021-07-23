@@ -20,7 +20,7 @@ export default {
       { hid: 'og:url', property: 'og:url', content: 'https://mihoko.netlify.app' },
       { hid: 'og:title', property: 'og:title', content: 'mihoko illustration' },
       { hid: 'og:description', property: 'og:description', content: '' },
-      { hid: 'og:image', property: 'og:image', content: '/img/common/mihoko_ogp.png' },
+      { hid: 'og:image', property: 'og:image', content: 'https://mihoko.netlify.app/img/common/mihoko_ogp.png' },
       { name: 'twitter:card', content: 'summary' }
     ],
     link: [
