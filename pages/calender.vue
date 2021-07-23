@@ -4,7 +4,7 @@
         <Header />
             <h1>Calender</h1>
             <div class="l-calender">
-                <div class="l-calender_box slide-bottom show" v-for="calender in displayLists" :key="calender.id">
+                <div class="l-calender_box fade fade1" v-for="calender in displayLists" :key="calender.id">
                     <p>{{ calender.title }}</p>
                     <div class="l-calender_box_img" v-for="img in calender.calender_detail" :key="img.calender">
                         <div class="l-calender_box_img_left">

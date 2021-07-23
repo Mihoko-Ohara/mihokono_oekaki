@@ -6,7 +6,7 @@
           <nuxt-link to="/gallery" class="l-calender_page_back">&lt; back</nuxt-link>
         </div>
         <div class="l-icon">
-          <div class="l-icon_box slide-bottom show">
+          <div class="l-icon_box fade fade1">
             <img :src="getAll[($route.params.id)-1].img_top">
             <a :href="`https://mihoko.netlify.app${getAll[($route.params.id)-1].img_top}`" download target="_blank" rel="noopener noreferrer">
               <div class="download_btn">
@@ -14,7 +14,7 @@
               </div>
             </a>
           </div>
-          <div v-for="icon in getAll[($route.params.id)-1].img_detail" :key="icon.img_detail" class="l-icon_box slide-bottom show">
+          <div v-for="icon in getAll[($route.params.id)-1].img_detail" :key="icon.img_detail" class="l-icon_box fade fade1">
             <img :src="icon.img">
               <a :href="`https://mihoko.netlify.app${icon.img}`" download target="_blank" rel="noopener noreferrer">
                 <div class="download_btn">

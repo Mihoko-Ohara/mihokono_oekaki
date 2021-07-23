@@ -5,7 +5,7 @@
             <p class="l-gallery_desc">イラストをクリックすると、SNSアイコン用のフリー画像をご利用いただけます。</p>
         <div class="l-galley">
             <nuxt-link  v-for="item in reverseItems" :key="item.id" :to="`/icon/${item.id}`">
-                <img :src="item.img_top" class="slide-bottom show">
+                <img :src="item.img_top" class="fade fade1">
             </nuxt-link>
         </div>
         <Footer />
