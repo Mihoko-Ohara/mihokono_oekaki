@@ -64,8 +64,13 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
       'nuxt-webfontloader',
-      '@nuxtjs/axios'
+      '@nuxtjs/axios',
+       ['@nuxtjs/google-adsense']
   ],
+
+  'google-adsense': {
+    id: 'ca-pub-3717918217582675'
+  },
 
   axios: {
     // proxyHeaders: false
