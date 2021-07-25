@@ -19,7 +19,19 @@
                 </div>
                 <div class="l-works_acd">
                     <input id="acd-check2" class="l-works_acd_check" type="checkbox">
-                    <label class="l-works_acd_label" for="acd-check2">その他のご利用、<br class="l-pc">商用利用のご依頼について</label>
+                    <label class="l-works_acd_label" for="acd-check2">フリーアイコンに名前を追加する</label>
+                    <nav class="l-works_acd_content">
+                        <ul>
+                            <li><nuxt-link to="/gallery"><span>本サイトのフリーアイコン</span></nuxt-link>に300円の追加料金で名前を追加してSNSアイコンとしてご利用いただけます。</li>
+                            <li>イラストのご提供後、1度InstagramまたはTwitterでメンション付き投稿(@mihokono_oekaki)をお願いします。</li>
+                            <li>私のInstagramのストーリーズでの投稿を許可していただきたいです。(名前の部分は伏せさせていただきます。)</li>
+                            <li>SNSアイコン以外のご利用、加工、無断転載等はご遠慮ください。</li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="l-works_acd">
+                    <input id="acd-check3" class="l-works_acd_check" type="checkbox">
+                    <label class="l-works_acd_label" for="acd-check3">その他のご利用、<br class="l-pc">商用利用のご依頼について</label>
                     <nav class="l-works_acd_content">
                         <ul>
                             <li>
@@ -29,8 +41,8 @@
                     </nav>
                 </div>
                 <div class="l-works_acd">
-                    <input id="acd-check3" class="l-works_acd_check" type="checkbox">
-                    <label class="l-works_acd_label" for="acd-check3">イラスト作成の流れ</label>
+                    <input id="acd-check4" class="l-works_acd_check" type="checkbox">
+                    <label class="l-works_acd_label" for="acd-check4">イラスト作成の流れ</label>
                     <nav class="l-works_acd_content">
                         <ul>
                             <li>
@@ -49,8 +61,8 @@
                     </nav>
                 </div>
                 <div class="l-works_acd">
-                    <input id="acd-check4" class="l-works_acd_check" type="checkbox">
-                    <label class="l-works_acd_label" for="acd-check4">お支払い方法について</label>
+                    <input id="acd-check5" class="l-works_acd_check" type="checkbox">
+                    <label class="l-works_acd_label" for="acd-check5">お支払い方法について</label>
                     <nav class="l-works_acd_content">
                         <ul>
                             <li>お支払いはPayPay支払い、または口座振込みでお願いいたします。</li>
@@ -152,6 +164,10 @@
                 ul{
                     padding-top: 10px;
                     padding-left: 20px;
+                }
+
+                span{
+                    font-weight: 300;
                 }
 
                 @media screen and (max-width: 599px) {
