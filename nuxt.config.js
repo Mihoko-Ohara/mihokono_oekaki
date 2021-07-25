@@ -45,13 +45,8 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    '@nuxtjs/vuetify',
-    '@nuxtjs/google-analytics'
+    '@nuxtjs/vuetify'
   ],
-
-    googleAnalytics: {
-    id: 'G-L6CLKNE22S'
-  },
 
     webfontloader: {
     google: {
@@ -70,11 +65,17 @@ export default {
   modules: [
       'nuxt-webfontloader',
       '@nuxtjs/axios',
-       ['@nuxtjs/google-adsense']
+      ['@nuxtjs/google-adsense'],
+      ['@nuxtjs/google-gtag'],
   ],
 
   'google-adsense': {
     id: 'ca-pub-3717918217582675'
+  },
+
+  'google-gtag': {
+    id: 'G-L6CLKNE22S',
+    debug: true,
   },
 
   axios: {
