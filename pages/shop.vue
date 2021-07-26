@@ -5,17 +5,17 @@
             <div class="l-shop">
                 <div class="suzuri-widget-product fade fade1" data-suzuri-product-id="16600680" data-suzuri-item-variant-id="1480">
                     <a href="https://suzuri.jp/mihokono_oekaki/6733680/reusable-bag/m/white" target="_blank" rel="noopener noreferrer">
-                        <img src="../assets/img/shop/shop01.webp">
+                        <img src="../assets/img/shop/shop01.png">
                     </a>
                 </div>
                 <div class="suzuri-widget-product fade fade1" data-suzuri-product-id="16600701" data-suzuri-item-variant-id="81">
                     <a href="https://suzuri.jp/mihokono_oekaki/6733680/tote-bag/m/natural" target="_blank" rel="noopener noreferrer">
-                        <img src="../assets/img/shop/shop02.webp">
+                        <img src="../assets/img/shop/shop02.png">
                     </a>
                 </div>
                 <div class="suzuri-widget-product fade fade1" data-suzuri-product-id="16600548" data-suzuri-item-variant-id="1">
                     <a href="https://suzuri.jp/mihokono_oekaki/6733642/t-shirt/s/white" target="_blank" rel="noopener noreferrer">
-                        <img src="../assets/img/shop/shop03.webp">
+                        <img src="../assets/img/shop/shop03.png">
                     </a>
                 </div>
             </div>
