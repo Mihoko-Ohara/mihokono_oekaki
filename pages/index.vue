@@ -32,22 +32,22 @@
         </main>
         <nuxt-link to="/gallery">
             <div class="l-gallery">
-                <img src="/img/gallery/mihoko09.png" class="fade_img fade3">
-                <img src="/img/gallery/mihoko34.png" class="fade_img fade4">
-                <img src="/img/gallery/mihoko23.png" class="fade_img fade5">
-                <img src="/img/gallery/mihoko12.png" class="fade_img fade6">
-                <img src="/img/gallery/mihoko01.png" class="fade_img fade7">
-                <img src="/img/gallery/mihoko30.png" class="fade_img fade8">
-                <img src="/img/gallery/mihoko02.png" class="fade_img fade9">
-                <img src="/img/gallery/mihoko05.png" class="fade_img fade10">
-                <img src="/img/gallery/mihoko17.png" class="fade_img fade11">
-                <img src="/img/gallery/mihoko32.png" class="fade_img fade12">
-                <img src="/img/gallery/mihoko28.png" class="fade_img fade13">
-                <img src="/img/gallery/mihoko15.png" class="fade_img fade14">
-                <img src="/img/gallery/mihoko20.png" class="fade_img fade15">
-                <img src="/img/gallery/mihoko25.png" class="fade_img fade16">
-                <img src="/img/gallery/mihoko21.png" class="fade_img fade17">
-                <img src="/img/gallery/mihoko03.png" class="fade_img fade18">
+                <img src="../assets/img/top/mihoko09.webp" class="fade_img fade3">
+                <img src="../assets/img/top/mihoko34.webp" class="fade_img fade4">
+                <img src="../assets/img/top/mihoko23.webp" class="fade_img fade5">
+                <img src="../assets/img/top/mihoko12.webp" class="fade_img fade6">
+                <img src="../assets/img/top/mihoko01.webp" class="fade_img fade7">
+                <img src="../assets/img/top/mihoko30.webp" class="fade_img fade8">
+                <img src="../assets/img/top/mihoko02.webp" class="fade_img fade9">
+                <img src="../assets/img/top/mihoko05.webp" class="fade_img fade10">
+                <img src="../assets/img/top/mihoko17.webp" class="fade_img fade11">
+                <img src="../assets/img/top/mihoko32.webp" class="fade_img fade12">
+                <img src="../assets/img/top/mihoko28.webp" class="fade_img fade13">
+                <img src="../assets/img/top/mihoko15.webp" class="fade_img fade14">
+                <img src="../assets/img/top/mihoko20.webp" class="fade_img fade15">
+                <img src="../assets/img/top/mihoko25.webp" class="fade_img fade16">
+                <img src="../assets/img/top/mihoko21.webp" class="fade_img fade17">
+                <img src="../assets/img/top/mihoko03.webp" class="fade_img fade18">
             </div>
         </nuxt-link>
     </div>
