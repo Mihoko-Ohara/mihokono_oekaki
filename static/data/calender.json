@@ -3,8 +3,10 @@
     "title": "April 2021",
     "calender_detail":[
         {
-            "num": "/img/calender/202104.png",
-            "illust": "/img/calender/202104_illust.png"
+            "num": "/img/calender/202104.webp",
+            "num_dl": "/img/calender/202104.png",
+            "illust": "/img/calender/202104_illust.webp",
+            "illust_dl": "/img/calender/202104_illust.png"
         }
     ]
   },
@@ -12,8 +14,10 @@
     "title": "May 2021",
     "calender_detail":[
         {
-            "num": "/img/calender/202105.png",
-            "illust": "/img/calender/202105_illust.png"
+            "num": "/img/calender/202105.webp",
+            "num_dl": "/img/calender/202105.png",
+            "illust": "/img/calender/202105_illust.webp",
+            "illust_dl": "/img/calender/202105_illust.png"
         }
     ]
   },
@@ -21,8 +25,10 @@
     "title": "June 2021",
     "calender_detail":[
         {
-            "num": "/img/calender/202106.png",
-            "illust": "/img/calender/202106_illust.png"
+            "num": "/img/calender/202106.webp",
+            "num_dl": "/img/calender/202106.png",
+            "illust": "/img/calender/202106_illust.webp",
+            "illust_dl": "/img/calender/202106_illust.png"
         }
     ]
   },
@@ -30,8 +36,10 @@
     "title": "July 2021",
     "calender_detail":[
         {
-            "num": "/img/calender/202107.png",
-            "illust": "/img/calender/202107_illust.png"
+            "num": "/img/calender/202107.webp",
+            "num_dl": "/img/calender/202107.png",
+            "illust": "/img/calender/202107_illust.webp",
+            "illust_dl": "/img/calender/202107_illust.png"
         }
     ]
   }

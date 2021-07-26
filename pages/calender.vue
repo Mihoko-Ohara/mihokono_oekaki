@@ -9,7 +9,7 @@
                     <div class="l-calender_box_img" v-for="img in calender.calender_detail" :key="img.calender">
                         <div class="l-calender_box_img_left">
                             <img :src="img.num">
-                            <a :href="`https://mihoko.netlify.app${img.num}`" download target="_blank" rel="noopener noreferrer">
+                            <a :href="`https://mihoko.netlify.app${img.num_dl}`" download target="_blank" rel="noopener noreferrer">
                                 <div class="download_btn">
                                         Download
                                 </div>
@@ -17,7 +17,7 @@
                         </div>
                         <div>
                             <img :src="img.illust">
-                            <a :href="`https://mihoko.netlify.app${img.illust}`" download target="_blank" rel="noopener noreferrer">
+                            <a :href="`https://mihoko.netlify.app${img.illust_dl}`" download target="_blank" rel="noopener noreferrer">
                                 <div class="download_btn">
                                         Download
                                 </div>
