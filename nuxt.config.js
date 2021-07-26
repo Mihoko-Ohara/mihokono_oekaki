@@ -26,9 +26,6 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ],
-    script: [
-      { src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js' }
-    ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -65,14 +62,9 @@ export default {
   modules: [
       'nuxt-webfontloader',
       '@nuxtjs/axios',
-      ['@nuxtjs/google-adsense'],
       ['@nuxtjs/google-gtag'],
       'nuxt-lazy-load'
   ],
-
-  'google-adsense': {
-    id: 'ca-pub-3717918217582675'
-  },
 
   'google-gtag': {
     id: 'G-L6CLKNE22S',
