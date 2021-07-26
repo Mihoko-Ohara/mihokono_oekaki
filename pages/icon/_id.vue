@@ -8,7 +8,7 @@
         <div class="l-icon">
           <div class="l-icon_box fade fade1">
             <img :src="getAll[($route.params.id)-1].img_top">
-            <a :href="`https://mihoko.netlify.app${getAll[($route.params.id)-1].img_top}`" download target="_blank" rel="noopener noreferrer">
+            <a :href="`https://mihoko.netlify.app${getAll[($route.params.id)-1].img_dl}`" download target="_blank" rel="noopener noreferrer">
               <div class="download_btn">
                 Download
               </div>
@@ -16,7 +16,7 @@
           </div>
           <div v-for="icon in getAll[($route.params.id)-1].img_detail" :key="icon.img_detail" class="l-icon_box fade fade1">
             <img :src="icon.img">
-              <a :href="`https://mihoko.netlify.app${icon.img}`" download target="_blank" rel="noopener noreferrer">
+              <a :href="`https://mihoko.netlify.app${icon.img_dl}`" download target="_blank" rel="noopener noreferrer">
                 <div class="download_btn">
                   Download
                 </div>
