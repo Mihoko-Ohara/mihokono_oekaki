@@ -1,6 +1,6 @@
 <template>
     <div>
-        <main class="l-main fade fade1">
+        <main class="l-main fade fade1" lazy-background="../assets/img/common/image_top.svg">
             <nav class="l-main-gnav fade fade2">
                 <ul>
                     <li>
@@ -56,7 +56,6 @@
 <style lang="scss">
     .l-main{
         font-family: 'Assistant', sans-serif;
-        background-image: url(../assets/img/common/image_top.svg);
         background-size: 700px 520px;
         min-height: 520px;
         background-repeat: no-repeat;

@@ -67,6 +67,7 @@ export default {
       '@nuxtjs/axios',
       ['@nuxtjs/google-adsense'],
       ['@nuxtjs/google-gtag'],
+      'nuxt-lazy-load'
   ],
 
   'google-adsense': {
