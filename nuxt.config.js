@@ -67,7 +67,7 @@ export default {
   ],
 
   'google-gtag': {
-    id: 'G-L6CLKNE22S',
+    id: 'G-JRK72QM92W',
     debug: true,
   },
 
