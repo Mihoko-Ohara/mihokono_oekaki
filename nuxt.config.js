@@ -67,8 +67,7 @@ export default {
   ],
 
   'google-gtag': {
-    id: 'G-JRK72QM92W',
-    send_page_view: false
+    id: 'G-JRK72QM92W'
   },
 
   axios: {

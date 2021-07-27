@@ -23,12 +23,6 @@ export default{
         reverseItems() {
         return this.items.slice().reverse();
         },
-    },
-    mounted () {
-        this.$gtag.pageview({
-        page_path: '/gallery',
-        page_title: "Galeryページ"
-        })
     }
 }
 </script>
