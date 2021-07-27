@@ -54,7 +54,7 @@
             margin-right: 11px;
             color: #000;
 
-            @media screen and (max-width: 768px) {
+            @media screen and (max-width: 834px) {
                 width: 130px;
             }
 

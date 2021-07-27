@@ -49,7 +49,7 @@ export default {
     flex-direction: row;
     flex-wrap: wrap;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 834px) {
       width: 600px;
       margin: 20px auto 0 auto;
     }
@@ -102,7 +102,7 @@ export default {
       margin-left: auto;
       font-family: 'Assistant', sans-serif;
 
-        @media screen and (max-width: 768px) {
+        @media screen and (max-width: 834px) {
           width: 500px;
         }
 
