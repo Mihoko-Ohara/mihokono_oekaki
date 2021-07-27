@@ -53,6 +53,17 @@
     </div>
 </template>
 
+<script>
+export default {
+    mounted () {
+        this.$gtag.pageview({
+        page_path: '/',
+        page_title: "ホーム画面"
+        })
+    }
+}
+</script>
+
 <style lang="scss">
     .l-main{
         font-family: 'Assistant', sans-serif;
