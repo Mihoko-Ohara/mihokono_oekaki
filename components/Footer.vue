@@ -24,7 +24,7 @@
         display: none;
     }
 
-    @media screen and (max-width: 599px) {
+    @media screen and (max-width: 768px) {
         .l-footer{
             position: fixed;
             bottom: 0;
@@ -39,13 +39,20 @@
             }
 
             img{
-                width: 25px;
-                height: 25px;
+                width: 30px;
+                height: 30px;
 
                 &:first-child{
                     margin-right: 15px;
                 }
             }
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        img{
+            width: 25px;
+            height: 25px;
         }
     }
 </style>

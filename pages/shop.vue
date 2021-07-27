@@ -60,6 +60,11 @@
         text-align: center;
         margin-top: 73px;
 
+        @media screen and (max-width: 768px) {
+            padding-bottom: 60px;
+            margin-top: 30px;
+        }
+
         @media screen and (max-width: 599px) {
             margin-top: 40px;
             padding-bottom: 60px;

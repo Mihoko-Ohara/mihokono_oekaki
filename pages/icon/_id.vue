@@ -49,6 +49,11 @@ export default {
     flex-direction: row;
     flex-wrap: wrap;
 
+    @media screen and (max-width: 768px) {
+      width: 600px;
+      margin: 20px auto 0 auto;
+    }
+
     @media screen and (max-width: 599px) {
       width: 360px;
       margin: 20px auto 0 auto;
@@ -96,6 +101,10 @@ export default {
       margin-right: auto;
       margin-left: auto;
       font-family: 'Assistant', sans-serif;
+
+        @media screen and (max-width: 768px) {
+          width: 500px;
+        }
 
         @media screen and (max-width: 599px) {
           width: 300px;

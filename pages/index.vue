@@ -62,6 +62,11 @@
         background-position: 65%;
         position: relative;
 
+        @media screen and (max-width: 768px) {
+            background-color:rgba(255,255,255,0.7);
+            background-blend-mode:lighten;
+        }
+
         @media screen and (max-width: 599px) {
             background-size: 600px 540px;
             background-position: 50%;
@@ -108,6 +113,10 @@
             height: 130px;
             width: 12.5%;
             object-fit: cover;
+
+            @media screen and (max-width: 768px) {
+                width: 25%;
+            }
 
             @media screen and (max-width: 599px) {
                 height: 70px;

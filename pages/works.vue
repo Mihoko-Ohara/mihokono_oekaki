@@ -119,6 +119,10 @@
             margin: 0 auto 15px auto;
             padding: 20px 35px;
 
+            @media screen and (max-width: 768px) {
+                width: 600px;
+            }
+
             @media screen and (max-width: 599px) {
                 width: 280px;
                 padding: 15px 20px;

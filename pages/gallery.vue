@@ -58,6 +58,10 @@ export default{
         flex-wrap: wrap;
         justify-content: space-evenly;
 
+        @media screen and (max-width: 768px) {
+            margin: 0 10px;
+        }
+
         @media screen and (max-width: 599px) {
             width: 318px;
             margin: 0 auto;
