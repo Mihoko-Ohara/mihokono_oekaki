@@ -45,6 +45,13 @@ export default {
     '@nuxtjs/vuetify'
   ],
 
+  vuetify: {
+    defaultAssets: {
+      font: false,
+      icons: false
+    }
+  },
+
     webfontloader: {
     google: {
       families: ['Assistant:200', 'Noto+Sans+JP:100,300']
