@@ -37,14 +37,14 @@ p{
 .l-pc{
     display: none;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 834px) {
         display: block;
     }
 }
 
 .l-sp{
     display: block;
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 834px) {
         display: none;
     }
 }
