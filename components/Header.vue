@@ -55,7 +55,7 @@
             color: #000;
 
             @media screen and (max-width: 834px) {
-                width: 130px;
+                width: 100px;
             }
 
             @media screen and (max-width: 599px) {

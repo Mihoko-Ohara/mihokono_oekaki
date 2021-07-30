@@ -21,7 +21,7 @@
         margin: 0 auto 47px auto;
 
         @media screen and (max-width: 834px) {
-            width: 600px;
+            width: 500px;
         }
 
         @media screen and (max-width: 599px) {
