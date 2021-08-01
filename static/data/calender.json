@@ -42,5 +42,16 @@
             "illust_dl": "/img/calender/202107_illust.png"
         }
     ]
+  },
+  { "id": 5,
+    "title": "August 2021",
+    "calender_detail":[
+        {
+            "num": "/img/calender/202108.webp",
+            "num_dl": "/img/calender/202108.png",
+            "illust": "/img/calender/202108_illust.webp",
+            "illust_dl": "/img/calender/202108_illust.png"
+        }
+    ]
   }
 ]
