@@ -64,5 +64,16 @@
             "illust_dl": "/img/calender/202109_illust.png"
         }
     ]
+  },
+  { "id": 7,
+    "title": "October 2021",
+    "calender_detail":[
+        {
+            "num": "/img/calender/202110.webp",
+            "num_dl": "/img/calender/202110.png",
+            "illust": "/img/calender/202110_illust.webp",
+            "illust_dl": "/img/calender/202110_illust.png"
+        }
+    ]
   }
 ]
