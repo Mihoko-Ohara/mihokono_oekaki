@@ -75,5 +75,16 @@
             "illust_dl": "/img/calender/202110_illust.png"
         }
     ]
+  },
+  { "id": 8,
+    "title": "November 2021",
+    "calender_detail":[
+        {
+            "num": "/img/calender/202111.webp",
+            "num_dl": "/img/calender/202111.png",
+            "illust": "/img/calender/202111_illust.webp",
+            "illust_dl": "/img/calender/202111_illust.png"
+        }
+    ]
   }
 ]
