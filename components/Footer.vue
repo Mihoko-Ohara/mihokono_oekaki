@@ -22,7 +22,6 @@
     .l-footer{
         display: none;
     }
-
     @media screen and (max-width: 834px) {
         .l-footer{
             position: fixed;
