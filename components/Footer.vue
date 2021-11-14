@@ -46,7 +46,6 @@
             }
         }
     }
-
     @media screen and (max-width: 834px) {
         img{
             width: 25px;
