@@ -367,5 +367,12 @@
         { "img": "/img/gallery/icon/mihoko57_1.webp", "img_dl": "/img/gallery/icon/mihoko57_1.png" },
         { "img": "/img/gallery/icon/mihoko57_2.webp", "img_dl": "/img/gallery/icon/mihoko57_2.png" }
     ]
+  },
+  { "id": 58,
+    "img_top": "/img/gallery/mihoko58.webp",
+    "img_dl": "/img/gallery/mihoko58.png",
+    "img_detail":[
+        { "img": "/img/gallery/icon/mihoko58_1.webp", "img_dl": "/img/gallery/icon/mihoko58_1.png" }
+    ]
   }
 ]
