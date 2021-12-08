@@ -19,6 +19,7 @@
     </div>
 </template>
 
+
 <style lang="scss">
     .l-footer{
         display: none;
@@ -47,11 +48,11 @@
             }
         }
     }
-
     @media screen and (max-width: 834px) {
         img{
             width: 25px;
             height: 25px;
         }
     }
+
 </style>
