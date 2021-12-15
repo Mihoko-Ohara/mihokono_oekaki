@@ -4,6 +4,7 @@
             <p class="l-use_title">イラストのご利用について</p>
             <p class="l-use_desc">
                 本サイトからお好みのイラストを選択し、<br class="l-pc">画像(PNG形式)をダウンロードしてご利用ください。<br>
+                利用する際は、1度InstagramまたはTwitterでメンション付き投稿(@mihokono_oekaki)をお願いします。<br>
                 ※イラストはSNSアイコン、壁紙のみ利用可能です。<br>
                 その他の利用や加工、無断転載等はお控えください。<br>
             </p>
