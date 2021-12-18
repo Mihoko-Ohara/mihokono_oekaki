@@ -11,6 +11,7 @@
         </div>
     </div>
 </template>
+
 <style lang="scss">
     .l-use{
         font-family: 'Noto Sans JP', sans-serif;
