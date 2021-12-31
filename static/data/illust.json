@@ -449,5 +449,13 @@
         { "img": "/img/gallery/icon/mihoko68_1.webp", "img_dl": "/img/gallery/icon/mihoko68_1.png" },
         { "img": "/img/gallery/icon/mihoko68_2.webp", "img_dl": "/img/gallery/icon/mihoko68_2.png" }
     ]
+  },
+  { "id": 69,
+    "img_top": "/img/gallery/mihoko69.webp",
+    "img_dl": "/img/gallery/mihoko69.png",
+    "img_detail":[
+        { "img": "/img/gallery/icon/mihoko69_1.webp", "img_dl": "/img/gallery/icon/mihoko69_1.png" },
+        { "img": "/img/gallery/icon/mihoko69_2.webp", "img_dl": "/img/gallery/icon/mihoko69_2.png" }
+    ]
   }
 ]

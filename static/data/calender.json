@@ -97,5 +97,16 @@
             "illust_dl": "/img/calender/202112_illust.png"
         }
     ]
+  },
+  { "id": 10,
+    "title": "January 2022",
+    "calender_detail":[
+        {
+            "num": "/img/calender/202201.webp",
+            "num_dl": "/img/calender/202201.png",
+            "illust": "/img/calender/202201_illust.webp",
+            "illust_dl": "/img/calender/202201_illust.png"
+        }
+    ]
   }
 ]
