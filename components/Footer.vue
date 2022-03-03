@@ -18,6 +18,8 @@
         </footer>
     </div>
 </template>
+
+
 <style lang="scss">
     .l-footer{
         display: none;
