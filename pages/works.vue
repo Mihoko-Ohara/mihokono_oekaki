@@ -4,7 +4,14 @@
             <h1>Works</h1>
             <div class="l-works">
                 <h2>イラストのご依頼について</h2>
-                <div class="l-works_acd">
+                <div class="l-works_pause">
+                    <p>
+                        現在ご依頼の受付を休止しております。<br>
+                        受付を再開する際はInstagram,Twitterにてお知らせ致します。<br>
+                        大変ご迷惑をおかけしますが、<br class="l-pc">何卒よろしくお願い致します。
+                    </p>
+                </div>
+                <!-- <div class="l-works_acd">
                     <input id="acd-check1" class="l-works_acd_check" type="checkbox">
                     <label class="l-works_acd_label" for="acd-check1">SNSアイコンのご依頼について</label>
                     <nav class="l-works_acd_content">
@@ -68,7 +75,7 @@
                             <li>お支払いはPayPay支払い、または口座振込みでお願いいたします。</li>
                         </ul>
                     </nav>
-                </div>
+                </div> -->
                 <h2 class="l-contact">お問い合わせ</h2>
                 <div class="l-use-padding">
                     <div class="l-use">
@@ -110,6 +117,25 @@
             @media screen and (max-width: 599px) {
                 margin-bottom: 20px;
                 font-size: 12px;
+            }
+        }
+
+        &_pause{
+            font-family: 'Noto Sans JP', sans-serif;
+            font-size: 16px;
+            font-weight: 100;
+            width: 912px;
+            margin: 0 auto;
+            @media screen and (max-width: 834px) {
+                width: 500px;
+                font-size: 15px;
+            }@media screen and (max-width: 599px) {
+                width: 280px;
+                font-size: 15px;
+            }
+            p{
+                text-align: center;
+                line-height: 1.8rem;
             }
         }
 
